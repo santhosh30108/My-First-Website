@@ -1,0 +1,115 @@
+.form{
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.search{
+    margin: 2vh;
+}
+
+#a{
+    font-size: large;
+    color:black;
+}
+#a:hover{
+    color: red;
+}
+
+#b,#c{
+    border-radius: 5%;
+}
+
+#c:hover{
+    color:blue;
+    border: 2.5px solid blue;
+}
+.table{
+    display:flex;
+    justify-content: space-around;
+    color:blanchedalmond;
+    align-items: center;
+}
+
+#l1,#l2,#l3{
+    border:2px double black;
+    width: 25vw;
+    text-align: center;
+    background-color: crimson;
+    font-weight: 900;
+}
+body{
+    background-color:rgb(243, 248, 195);
+    margin: 0%;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:fit-content;
+}
+
+.psearch{
+    margin: 2vh;
+    color:yellow;
+}
+
+
+.poke{
+    height:5vw;
+    width: fit-content;
+}
+
+.para{
+    margin:10px;
+}
+
+h1{
+    text-align: center;
+    color:darkred;
+    background-color:gold;
+    margin-top: 0%;
+    padding: 0%;
+    position: fixed;
+    width: 100%;
+    top:0;
+}
+
+h2{
+    text-align: center;
+    background-color:sandybrown;
+    height:10vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6vh;
+}
+
+.pform{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+#pb{
+    width:60vw;
+    height:4vh;
+}
+
+#pc{
+    width:10vw;
+    height:5vh;
+    color: black;
+}
+
+.team{
+    float:right;
+    width: 30vw;
+    height: auto;
+    margin:10px;
+}
+
+.pika{
+    float:left;
+    width: auto;
+    height: 50vh;
+    margin:10px;
+}
